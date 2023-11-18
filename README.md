@@ -1,4 +1,4 @@
-<h1>Terribly Tiny Tales Assignment 🚀 </h1>
+<h1>Terribly Tiny Tales Assignment</h1>
 
 ### Following technologies are used in this project
 
