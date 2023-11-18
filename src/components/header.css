@@ -19,6 +19,7 @@ header {
   header .header__left .logo {
     width: 27px;
     height: auto;
+    cursor: pointer;
   }
   
   header .header__left .stories__text {
@@ -38,6 +39,7 @@ header {
     padding: 8px 8px;
     font-weight: 900;
     border-radius: 5px;
+    cursor: pointer;
   }
   
   /* iPhone 12/13 pro max size is taken as reference */

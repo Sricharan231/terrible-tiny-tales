@@ -49,12 +49,14 @@
   margin: 0 0 0 2px;
   align-self: end;
   margin-bottom: 4px;
+  cursor: pointer;
 }
 
 .profile .profile__details .social_details .name .icon.verified {
   width: 22px;
   margin-bottom: 8px;
   align-self: center;
+  cursor: pointer;
 }
 
 .profile .profile__details .social_details .follow__details {
@@ -63,6 +65,7 @@
   text-align: center;
   font-size: 0.6rem;
   color: #595959;
+  cursor: pointer;
 }
 
 .profile .profile__details .bio {
@@ -87,6 +90,7 @@
   grid-column: 1 / span 2;
   font-size: 0.7rem;
   margin-left: 1rem;
+  cursor: pointer;
 }
 
 /* Media Queries */

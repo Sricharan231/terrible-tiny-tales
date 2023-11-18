@@ -6,7 +6,7 @@ function Header() {
     return (
         <header>
             <div className="header__left">
-                <img src={CompanyLogo} alt="company-logo" className='logo' />
+                <a href='/'><img src={CompanyLogo} alt="company-logo" className='logo' /></a>
                 <div className="stories__text">STORIES</div>
             </div>
             <div className="header__right">
