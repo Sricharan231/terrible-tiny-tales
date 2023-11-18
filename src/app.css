@@ -1,0 +1,63 @@
+/**
+  All the global styling is added here 
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .icon {
+    width: 20px;
+    padding: 5px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+  }
+  
+  .icon img {
+    width: 100%;
+  }
+  
+  .icon.like {
+    background-color: #ffd700;
+  }
+  
+  .icon.star {
+    background-color: #69c6ff;
+  }
+  
+  .icon.eye {
+    background-color: #646464;
+  }
+  
+  .icon.heart {
+    background-color: #d21e1e;
+  }
+  
+  .icon.diamond {
+    background-color: darkviolet;
+  }
+  
+  .tag {
+    display: inline-block;
+    width: 55px;
+    padding: 4px 0;
+    border: 1.5px solid #929292;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border-radius: 7px;
+    margin: 2px 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #69c6ff;
+  }
+  

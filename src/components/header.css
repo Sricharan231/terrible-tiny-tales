@@ -1,0 +1,62 @@
+header {
+    height: 65px;
+    padding: 0 2rem;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  header .header__left {
+    height: 100%;
+    color: #fff;
+    margin-top: 7px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  header .header__left .logo {
+    width: 27px;
+    height: auto;
+  }
+  
+  header .header__left .stories__text {
+    border-left: 2px solid #7d6a00;
+    padding: 5px 0;
+    padding-left: 10px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: 4px;
+  }
+  
+  header .header__right .btn {
+    outline: none;
+    border: none;
+    background-color: #ffbf00;
+    font-size: 0.9rem;
+    padding: 8px 8px;
+    font-weight: 900;
+    border-radius: 5px;
+  }
+  
+  /* iPhone 12/13 pro max size is taken as reference */
+  @media (min-width: 431px) {
+    header {
+      height: 80px;
+    }
+  
+    header .header__left .logo {
+      width: 30px;
+    }
+  
+    header .header__left .stories__text {
+      font-size: 1.2rem;
+    }
+  
+    header .header__right .btn {
+      padding: 10px 15px;
+      font-size: 1.1rem;
+    }
+  }
+  

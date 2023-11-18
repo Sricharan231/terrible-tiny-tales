@@ -1,0 +1,32 @@
+.posts {
+  margin-top: 3rem;
+  border-top: #ececec 2px solid;
+  position: relative;
+}
+
+.posts::before {
+  content: "";
+  position: absolute;
+  width: 105px;
+  height: 6px;
+  background-color: rgb(255, 255, 255);
+  transform: translateY(-4px);
+}
+
+.posts .posts__count {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: rgb(0, 140, 240);
+  width: 105px;
+  border-top: 2px solid #ececec;
+  border-left: 1px solid #ececec;
+  border-right: 2px solid #ececec;
+  border-top-right-radius: 5px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  transform: translateY(-41.5px);
+  padding: 20px 0;
+}
